@@ -1,5 +1,5 @@
 //
-//I want to be able to have a "declarative statement" of the harness configuration and topology so that I can generate terraform content from templates to account for the differences between clouds that terraform supports.
+//I want to create some sort of exercise playground for my golang study.
 //
 //Notes:
 //
@@ -10,5 +10,4 @@
 //		* type of network, number of ips allocate, etc.
 //	* "topology" - how each box or dut is connected to each network (or not)
 //
-
 package gocookbook
