@@ -20,10 +20,6 @@ jobs:
 
     - name: Build
       run: go build -v ./...
-      
-    - run: cd ./io/interfaces
 
     - name: Test Interfaces
-      run:  go test -v ./...
-    
-    - run: ls -la
+      run:  cd ./io/interfaces; go test -v ./...
