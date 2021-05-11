@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// Adding to try whitesource
 // Copy copies data from in to out first directly,
 // then using a buffer. It also writes to stdout
 func Copy(in io.ReadSeeker, out io.Writer) error {
